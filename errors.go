@@ -1,11 +1,11 @@
-package prefixtree_core
+package prefix-tree-core
 
 import "errors"
 
 var (
-	ErrInvalidDataType = errors.New("cedar: invalid datatype")
-	ErrInvalidValue    = errors.New("cedar: invalid value")
-	ErrInvalidKey      = errors.New("cedar: invalid key")
-	ErrNoPath          = errors.New("cedar: no path")
-	ErrNoValue         = errors.New("cedar: no value")
+	ErrInvalidDataType = errors.New("prefixTree: invalid datatype")
+	ErrInvalidValue    = errors.New("prefixTree: invalid value")
+	ErrInvalidKey      = errors.New("prefixTree: invalid key")
+	ErrNoPath          = errors.New("prefixTree: no path")
+	ErrNoValue         = errors.New("prefixTree: no value")
 )
