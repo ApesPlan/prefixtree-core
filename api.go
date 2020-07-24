@@ -83,7 +83,7 @@ func (tree *PrefixTree) Value(id int) (value int, err error) {
 		return value, nil
 	}
 	to := tree.Array[id].base()
-	if tree.Array[to].Check == id && da.Array[to].Value >= 0 {
+	if tree.Array[to].Check == id && tree.Array[to].Value >= 0 {
 		return tree.Array[to].Value, nil
 	}
 	return 0, ErrNoValue
