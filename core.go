@@ -1,4 +1,4 @@
-package prefix-tree-core
+package prefixtreecore
 
 // ValueLimit 有符号整型int 最大值 二进制表示，首位0，其余1
 const ValueLimit = int(^uint(0) >> 1)

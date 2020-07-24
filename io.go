@@ -1,4 +1,4 @@
-package prefix-tree-core
+package prefixtreecore
 
 import (
 	"bufio"

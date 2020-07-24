@@ -1,4 +1,4 @@
-package prefix-tree-core
+package prefixtreecore
 
 // Status reports the following statistics of the prefixTree:
 //	keys:		number of keys that are in the prefixTree,
